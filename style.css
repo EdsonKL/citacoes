@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+body{
+  background-color: rgb(26, 26, 26);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.citacao{
+  max-width: 600px;
+  margin-top: 10px;
+  font-style: italic;
+
+}
+.autor{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
